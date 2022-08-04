@@ -138,6 +138,7 @@ button {
   color: #FFF;
   font-weight: 700;
   border-radius: 0.25rem;
+  transition: background-color 200ms;
 }
 button.btn-default {
   background-color: #44BBA4;
