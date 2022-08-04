@@ -80,9 +80,9 @@ main header span {
 form {
   background-color: #FFF;
   color: #393E41;
-  width: 80%;
+  width: 90%;
   margin: 2.5rem auto;
-  padding: 0.25rem 2.5rem;
+  padding: 0.25rem 1rem;
   border-radius: 4px;
 }
 form div {
@@ -93,6 +93,17 @@ form div {
 form button {
   display: block;
   margin: 1rem auto;
+}
+@media (min-width: 576px) {
+  form {
+    padding: 0.25rem 2.5rem;
+    width: 80%;
+  }
+}
+@media (min-width: 1400px) {
+  form {
+    width: 70%;
+  }
 }
 
 label {
