@@ -33,3 +33,11 @@ $x-small: math.div(12, $font-size-root) + rem;
 $fw-regular: 400;
 $fw-semi-bold: 600;
 $fw-bold: 700;
+
+// breakpoints
+$bp-xs: 0;
+$bp-sm: 576px;
+$bp-md: 768px;
+$bp-lg: 992px;
+$bp-xl: 1200px;
+$bp-xxl: 1400px;
