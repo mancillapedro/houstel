@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button,
+select,
+input {
+    border: none;
+}
+
+::placeholder {
+    opacity: 1;
+}

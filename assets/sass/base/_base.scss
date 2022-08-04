@@ -1,0 +1,8 @@
+body {
+    min-height: 100vh;
+    background-image: linear-gradient(rgba($old-silver, .125), rgba($old-silver, .125)), url('../images/background.jpg');
+    background-blend-mode: saturation;
+    background-size: cover;
+    background-position: top;
+    color: $white;
+}

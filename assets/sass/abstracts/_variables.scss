@@ -1,0 +1,35 @@
+// light colors
+$white: #FFF;
+$platinum: #E8E8E8;
+$gray: #BABABA;
+
+// warm colors
+$carmine-pink: #E94F37;
+$salmon: #EF7F6D;
+$spanish-pink: #F7BFB6;
+
+// dark colors
+$black-olive: #393E41;
+$granite-gray: #5D6163;
+$old-silver: #818486;
+
+// cold colors
+$verdigris: #44BBA4;
+$medium-aquamarine: #66C7B4;
+$perl-aqua: #88D3C5;
+
+// font sizes
+$font-size-root: 16;
+$xxxx-large: math.div(130, $font-size-root) + rem;
+$xxx-large: math.div(100, $font-size-root) + rem;
+$xx-large: math.div(30, $font-size-root) + rem;
+$x-large: math.div(20, $font-size-root) + rem;
+$large: math.div(18, $font-size-root) + rem;
+$medium: math.div(16, $font-size-root) + rem;
+$small: math.div(14, $font-size-root) + rem;
+$x-small: math.div(12, $font-size-root) + rem;
+
+// font weight
+$fw-regular: 400;
+$fw-semi-bold: 600;
+$fw-bold: 700;

@@ -1,0 +1,31 @@
+button {
+    color: $white;
+    font-weight: $fw-bold;
+    border-radius: .25rem;
+
+    &.btn-default {
+        background-color: $verdigris;
+        padding: 1rem 2.5rem;
+
+        &:hover {
+            background-color: $medium-aquamarine;
+        }
+
+        &:focus {
+            background-color: $perl-aqua;
+        }
+    }
+
+    &.btn-positive {
+        background-color: $carmine-pink;
+        padding: .5rem 2rem;
+
+        &:hover {
+            background-color: $salmon;
+        }
+
+        &:focus {
+            background-color: $spanish-pink;
+        }
+    }
+}
