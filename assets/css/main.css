@@ -48,7 +48,12 @@ h2 {
   font-weight: 400;
 }
 h2 span {
-  font-size: 8.125rem;
+  font-size: 6.25rem;
+}
+@media (min-width: 576px) {
+  h2 span {
+    font-size: 8.125rem;
+  }
 }
 
 form > div * {

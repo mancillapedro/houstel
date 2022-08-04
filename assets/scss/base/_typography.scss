@@ -14,7 +14,6 @@ body {
 }
 
 h1 {
-
     font-size: $xx-large;
 }
 
@@ -28,7 +27,11 @@ h2 {
 
     span {
         @extend %playfair-display;
-        font-size: $xxxx-large;
+        font-size: $xxx-large;
+
+        @include media-breakpoint-up($bp-sm) {
+            font-size: $xxxx-large;
+        }
     }
 }
 
