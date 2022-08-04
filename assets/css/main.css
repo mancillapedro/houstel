@@ -61,14 +61,17 @@ form > div * {
 }
 
 body > header {
-  position: sticky;
-  top: 0;
-  left: 0;
+  padding: 1.5rem;
+  color: #FFF;
+}
+body > header > h1 {
   width: 95%;
   margin: 0 auto;
-  padding: 1.5rem;
-  padding-bottom: 0.5rem;
-  color: #FFF;
+}
+@media (min-width: 576px) {
+  body > header {
+    padding-bottom: 0.5rem;
+  }
 }
 
 main {
